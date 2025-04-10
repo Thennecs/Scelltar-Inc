@@ -1,0 +1,287 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="theme-color" content="rgb(00,00,00)">
+
+    <link rel="icon" href="img/favicon.png" type="image/x-icon"> <!--Favicon-->
+    <title>Scelltar</title>
+    
+    <link rel="stylesheet" href="home.css"> <!--link to CSS file-->
+    <script src="home.js"></script> <!--link to Javascript file-->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--link to font family-->
+
+    
+    <!--Schriftart (local / keine cloud noetig)-- beim kopieren der pfade auf slash achten! --> 
+    <style>  
+        @font-face { 
+            font-family: NeueHaas; 
+            src: url('/font/neue-haas-grotesk-display-pro/NeueHaasDisplayRoman.ttf');  
+        } 
+        @font-face { 
+            font-family: DIN; 
+            src: url('/font/AlteDIN1451/din1451alt.ttf');  
+        }
+        @font-face {
+            font-family: Soehne;
+            src: url('/font/Soehne/Sohne-Buch.otf');
+        }
+        @font-face {
+            font-family: Soehne-hb;
+            src: url('/font/Soehne/Sohne-Kraftig.otf');
+        }
+        @font-face {
+            font-family: Inter;
+            src: url('/font/Inter/InterVariable.ttf');
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <div class="navbar">
+
+        <!--LOGO-->
+        <a href="home.html">
+            <img class="logo" src="img/logofont.png" alt="logo">
+        </a>
+
+
+        <!--DESKTOP NAVIGATION-->
+        <div class="nav-item-container">
+            <a href="home.html" class="nav-item">Home</a>
+            <a href="gallery.html" class="nav-item">Apps</a>
+            <a href="contact.html" class="nav-item">Updates</a>
+            <a href="about.html" class="nav-item">Topics</a>
+        </div>
+
+        <div class="login-icon-m">
+            <a href="signin.html">
+            <img src="img/searchicon.png" alt="">
+            </a>
+        </div>
+
+        <!--MOBILE MENU BUTTON-->
+        <div class="mobile-menu-button">
+            <div class="mobile-menu-button-circle">
+                <div class="burger-menu">
+                    <div class="line top"></div>
+                    <div class="line bottom"></div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="navbar-options">
+            <!--SEARCH BUTTON-->
+            <button class="search-button">
+                <img class="search-icon" src="img/searchicon.png">
+            </button>
+            
+            <a href="signin.html">
+                <button class="login-button"> 
+                    Sign i<span class="last-letter">n</span>
+                    <img src="img/arrowupright-white.png" alt="">
+                </button>
+            </a>
+
+            <!--SPLIT LINE-->
+
+            <!--ACCOUNT MENU BUTTON-->
+            
+        </div>
+
+    </div>
+
+
+
+    <!--SEARCH BAR-->
+    <div class="search-bar">
+        <div class="search-icon-field">
+            <img class="search-icon" src="img/searchicon.png">
+        </div>
+        <input type="text" class="text" placeholder="Search..." >
+        <div class="search-bar-delete-button-field">
+            <button class="search-bar-delete-button">
+                <img class="search-bar-delete-button-img" src="img/delete-button.png">
+            </button>
+        </div>
+    </div>
+
+    
+
+    <!--MOBILE NAVIGATION MENU-->
+    <div class="mobile-menu">
+        <div class="mobile-nav-items-container">
+            <a href="home.html" class="mobilenav-item"> Home <img class="chevron-icon" src="img/chevron-right.png"> </a>
+            <a href="gallery.html" class="mobilenav-item"> Apps <img class="chevron-icon" src="img/chevron-right.png"> </a>
+            <a href="contact.html" class="mobilenav-item"> Updates <img class="chevron-icon" src="img/chevron-right.png"> </a>
+            <a href="about.html" class="mobilenav-item"> Topics <img class="chevron-icon" src="img/chevron-right.png"> </a>
+        </div>
+        <div class="mobilenav-options">
+            <button class="globelang"><img src="img/globe.png">English</button>
+            <a href="signin.html">
+                <button class="signinbutton"> 
+                    Sign i<span class="last-letter">n</span>
+                    <img src="img/arrowupright-white.png" alt="">
+                </button>
+            </a>
+            <!-- <a href="signin.html" class="signoutbutton-option"> Log Ou<span class="lastletter">t</span></a> -->
+            
+        </div>
+    </div>
+
+
+    
+    <!--ACCOUNT MENU-->
+    <div class="account-menu">
+        <div class="account-menu-content">
+            <a href="signin.html" class="content-item"> <img src="img/signin-icon.png"> Sign In </a>
+            <a href="account.html" class="content-item"> <img src="img/account-icon.png"> Account </a>
+            <a href="#" class="content-item"> <img src="img/globe-icon.png"> Language </a>
+            <a href="#" class="content-item"> <img src="img/help-icon.png"> Help </a>
+        </div>    
+    </div>
+
+
+
+
+
+    <!--CONTENT-->
+
+    <div class="container">
+     
+        <div class="content-container">
+            <div class="heading">Shaping the Future</div>
+            <div class="sub-heading">We revolutionize technology through innovation, research, and advanced engineering solutions.</div>
+            
+            <div class="button-flex-container">
+                <button>Discover Our Technologies</button>
+                <button>Explore Our Latest Projects</button>
+            </div>
+        </div>
+    </div>
+
+   <!-- Core Technologies Section -->
+<section class="core-technologies">
+    <h2 class="section-heading">Our Core Technologies</h2>
+    <div class="tech-cards-container">
+        <div class="tech-card">
+            <img src="img/tech-icon1.png" alt="AI" class="tech-icon">
+            <h3 class="tech-title">Artificial Intelligence</h3>
+            <p class="tech-description">Advanced AI solutions that drive innovation and automate complex processes.</p>
+        </div>
+        <div class="tech-card">
+            <img src="img/tech-icon2.png" alt="Robotics" class="tech-icon">
+            <h3 class="tech-title">Robotics</h3>
+            <p class="tech-description">Next-generation robotics systems designed for precision and efficiency.</p>
+        </div>
+        <div class="tech-card">
+            <img src="img/tech-icon3.png" alt="Quantum Computing" class="tech-icon">
+            <h3 class="tech-title">Quantum Computing</h3>
+            <p class="tech-description">Pushing the boundaries of computing with quantum-based solutions.</p>
+        </div>
+        <div class="tech-card">
+            <img src="img/tech-icon4.png" alt="Renewable Energy" class="tech-icon">
+            <h3 class="tech-title">Renewable Energy</h3>
+            <p class="tech-description">Sustainable energy technologies for a greener future.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Projects Section -->
+<section class="featured-projects">
+    <h2 class="section-heading">Featured Projects</h2>
+    <div class="projects-container">
+        <div class="project-card">
+            <div class="project-image" style="background-image: url('img/project1.jpg');"></div>
+            <div class="project-info">
+                <h3 class="project-title">Project Nexus</h3>
+                <p class="project-description">A revolutionary AI system that integrates with smart city infrastructure.</p>
+                <a href="#" class="project-link">Learn more <img src="img/arrow-right.png" alt=""></a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-image" style="background-image: url('img/project2.jpg');"></div>
+            <div class="project-info">
+                <h3 class="project-title">Quantum Vault</h3>
+                <p class="project-description">Ultra-secure data storage using quantum encryption technology.</p>
+                <a href="#" class="project-link">Learn more <img src="img/arrow-right.png" alt=""></a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-image" style="background-image: url('img/project3.jpg');"></div>
+            <div class="project-info">
+                <h3 class="project-title">EcoSphere</h3>
+                <p class="project-description">Sustainable ecosystem monitoring and management platform.</p>
+                <a href="#" class="project-link">Learn more <img src="img/arrow-right.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Innovation and Research Section -->
+<section class="innovation-research">
+    <div class="innovation-container">
+        <h2 class="innovation-heading">Innovation Through Research</h2>
+        <p class="innovation-text">At Scelltar, we believe that breakthrough innovation comes from dedicated research. Our state-of-the-art labs are where tomorrow's technologies take shape, fueled by a team of world-class scientists and engineers passionate about pushing boundaries.</p>
+        <div class="stats-container">
+            <div class="stat-item">
+                <span class="stat-number">150+</span>
+                <span class="stat-label">Research Patents</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">48</span>
+                <span class="stat-label">Global Labs</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">230</span>
+                <span class="stat-label">Scientists & Engineers</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">85M</span>
+                <span class="stat-label">R&D Investment</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action Section -->
+<section class="cta-section">
+    <div class="cta-container">
+        <h2 class="cta-heading">Ready to Shape the Future Together?</h2>
+        <p class="cta-text">Join us on our mission to develop technologies that transform industries and improve lives. Whether you're looking to partner with us, explore our solutions, or become part of our team, we're excited to connect.</p>
+        <div class="cta-buttons">
+            <button class="cta-button primary-button">Contact Us</button>
+            <button class="cta-button secondary-button">View Opportunities</button>
+        </div>
+    </div>
+</section>
+
+
+  
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="about.html" class="information">About</a>
+                <a href="projects.html" class="information">Projects</a>
+                <a href="contact.html" class="information">Contact</a>
+                <a href="careers.html" class="information">Careers</a>
+            </div>
+            <img class="footer-logo" src="img/logo.png" alt="logo">
+            <div class="copyright">Scelltar Inc. © 2025</div>
+        </div>
+    </footer>
+
+    
+    
+
+</body>
+
+</html>
