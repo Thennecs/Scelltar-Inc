@@ -306,7 +306,7 @@ input[type=text]::placeholder {
 .content-item {
     text-decoration: none;
     color: rgb(120,120,120);
-    font-family: ffdin_thin;
+    font-family: inter;
     font-size: 15px;
     font-weight: 400;
     letter-spacing: 0.75px;
@@ -500,7 +500,7 @@ input[type=text]::placeholder {
 
     color: rgb(80,80,80);
     color: rgb(240,240,240);
-    font-family: soehne;
+    font-family: inter;
     font-size: 17px;
     font-weight: 500;
     letter-spacing: 1.5px;
@@ -578,7 +578,7 @@ input[type=text]::placeholder {
     border: none;
     color: rgb(240, 240, 240);
     color: rgb(70,70,70);
-    font-family: soehne;
+    font-family: inter;
     font-size: 14px;
     padding: 8px 12px;
     cursor: pointer;
@@ -645,7 +645,7 @@ body {
 .heading {
     margin-top: 20px;
 
-    font-family: Soehne;
+    font-family: inter;
     font-size: 50px;
     font-weight: 100;
     letter-spacing: 0px;
@@ -655,7 +655,7 @@ body {
 
 .sub-heading {
     max-width: 50%;
-    font-family: Soehne;
+    font-family: inter;
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0px;
@@ -688,7 +688,7 @@ body {
     border: 0px;
     border-radius: 0px;
 
-    font-family: NeueHaas;
+    font-family: Inter;
     font-weight: 500;
     font-size: 15px;
     letter-spacing: 1px;
@@ -709,7 +709,7 @@ body {
 }
 
 .section-heading {
-    font-family: Soehne;
+    font-family: inter;
     font-size: 38px;
     font-weight: 300;
     color: white;
@@ -750,7 +750,7 @@ body {
 }
 
 .tech-title {
-    font-family: Soehne-hb;
+    font-family: inter-hb;
     font-size: 18px;
     color: white;
     margin-bottom: 15px;
@@ -806,7 +806,7 @@ body {
 }
 
 .project-title {
-    font-family: Soehne-hb;
+    font-family: inter-hb;
     font-size: 20px;
     color: white;
     margin-bottom: 10px;
@@ -856,7 +856,7 @@ body {
 }
 
 .innovation-heading {
-    font-family: Soehne;
+    font-family: inter;
     font-size: 38px;
     font-weight: 300;
     color: white;
@@ -885,7 +885,7 @@ body {
 }
 
 .stat-number {
-    font-family: DIN;
+    font-family: Inter;
     font-size: 42px;
     color: rgb(60, 130, 250);
     margin-bottom: 10px;
@@ -920,7 +920,7 @@ body {
 }
 
 .cta-heading {
-    font-family: Soehne;
+    font-family: inter;
     font-size: 32px;
     font-weight: 300;
     color: white;
@@ -1043,7 +1043,7 @@ body {
     text-decoration: none;
     color: rgb(240,240,240); /* Example link color */
     font-size: 15px;
-    font-family: soehne;
+    font-family: inter;
     margin: 8px 0px; /* Add some space between links */
 }
 
@@ -1061,7 +1061,7 @@ body {
 .copyright {
     font-size: 13px;
     color: rgb(100,100,100); /* Example text color */
-    font-family: soehne;
+    font-family: inter;
     letter-spacing: 1px;
     align-self: center; /* Center the copyright text */
 }
